@@ -128,10 +128,10 @@
             <tr>
                 <td><u>Amapá</u></td>
                 <td class="col-pop">877.613</td>
-                <td><code>&lt;u&gt;Texto sublinhado&lt;/u&gt;</code></td>
+                <td><u>Texto sublinhado</u></code></td>
             </tr>
             <tr>
-                <td><s><u>Amazonas</u></s></td>
+                <td><u>Amazonas</u></td>
                 <td class="col-pop"><u>4.269.995</u></td>
                 <td>`<s>Texto riscado</s>` e `<u>Texto sublinhado</u>`</td>
             </tr>
@@ -151,22 +151,26 @@
                 <td>`Texto em negrito`</td>
             </tr>
             <tr>
-                <td>“Espírito Santo”</td>
+                <td>
+                    <prev>"Espírito Santo"</prev>
+                </td>
                 <td class="col-pop">4.108.508</td>
                 <td>`“Citação curta”`</td>
             </tr>
             <tr>
-                <td><i>Goiás</i></td>
+                <td><em> <cite>Goiás</cite> </em></td>
                 <td class="col-pop">7.206.589</td>
-                <td>`<i>Citação de fonte</i>`</td>
+                <td>`<em>Citação de fonte</em>`</td>
             </tr>
             <tr>
-                <td>Maranhão</td>
+                <td> <code>Maranhão</code> </td>
                 <td class="col-pop">6.775.805</td>
                 <td>`Texto monoespaçado`</td>
             </tr>
             <tr style="height: 100px;">
-                <td class="font-mato-grosso"><pre>Mato Grosso</pre></td>
+                <td class="font-mato-grosso">
+                    <pre>Mato Grosso</pre>
+                </td>
                 <td class="col-pop">3.658.813</td>
                 <td>. <br>
                     <pre>Texto pré-formatado</pre> <br> .
@@ -183,7 +187,9 @@
                 <td>Texto <sub>subscrito</sub></td>
             </tr>
             <tr>
-                <td class="rio-cell">Rio de Janeiro</td>
+                <td>
+                    <blockquote>Rio de Janeiro</blockquote>
+                </td>
                 <td class="col-pop">16.054.524</td>
                 <td class="bloco-cell">. <br> Citação em bloco <br> .</td>
             </tr>
